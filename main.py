@@ -1,6 +1,6 @@
-from TempMail import TempMail
+from dispomail import Dispomail
 
-tempmail = TempMail()
+tempmail = Dispomail()
 
 accounts = tempmail.create(1)
 

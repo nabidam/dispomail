@@ -27,7 +27,7 @@ def generate_random_string(length, all_letters=False):
 provider_endpoints = {"mail.tm": "https://api.mail.tm"}
 
 
-class TempMail:
+class Dispomail:
     """Base class for creating and woriking with temporary email accounts
 
     Args:
