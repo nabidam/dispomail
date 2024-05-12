@@ -1,6 +1,6 @@
 from TempMail import TempMail
 
 tempmail = TempMail()
-accounts = tempmail.create()
+accounts = tempmail.create(10)
 
 print(accounts)
