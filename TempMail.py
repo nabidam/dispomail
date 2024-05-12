@@ -86,7 +86,7 @@ class TempMail:
         )
         logger.info("trying to save accounts details in a file")
         timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-        file_name = f"{timestamp}.json"
+        file_name = f"accounts/{timestamp}.json"
         with open(file_name, "w") as file:
             json.dump(accs, file)
 
